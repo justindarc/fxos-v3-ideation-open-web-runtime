@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/league.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+		<style>
+			img {
+				background: none !important;
+				border: none !important;
+				box-shadow: none !important;
+			}
+			.horizontal {
+				display: flex;
+				align-items: center;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section>
+					<h1>Open Web Runtime</h1>
+					<h3>Firefox OS V3 Ideation</h3>
+					<hr><br>
+					<h5>Team Next Thing</h5>
+					<p>
+						<small>
+							Justin D’Arcangelo, Stephany Wilkes, Miller Medeiros, Wilson Page, Diego Marcos, Hema Koka, Tiffanie Shakespeare, Parul Mathur
+						</small>
+					</p>
+					<p>
+						<small>January 15, 2015</small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Mobile App Development Today</h2>
+					<div class="horizontal">
+						<ul>
+							<li class="fragment roll-in">One app</li>
+							<li class="fragment roll-in">Multiple platforms, separate code base for each</li>
+							<li class="fragment roll-in">Different Device APIs for each platform</li>
+						</ul>
+						<img src="img/slide-1.png">
+					</div>
+				</section>
+
+				<section>
+					<h2>Open Web Runtime Of Tomorrow</h2>
+					<div class="horizontal">
+						<ul>
+							<li class="fragment roll-in">One app</li>
+							<li class="fragment roll-in">Multiple platforms, share SAME codebase for all</li>
+							<li class="fragment roll-in">Standardized Device APIs across ALL platforms</li>
+						</ul>
+						<img src="img/slide-2.png">
+					</div>
+				</section>
+
+				<section>
+					<section>
+						<h2>One Codebase To Rule Them All</h2>
+						<ul>
+							<li class="fragment roll-in">Current products (Firefox Desktop, Firefox Android) can be built on a single, unified Open Web Runtime)</li>
+							<li class="fragment roll-in">Consistent API support across all platforms</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Gecko+Device APIs</h2>
+						<ul>
+							<li class="fragment roll-in">“Portable” Firefox OS</li>
+							<li class="fragment roll-in">Firefox OS as an “app”</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Headless Runtime</h2>
+						<ul>
+							<li class="fragment roll-in">Firefox OS everywhere</li>
+							<li class="fragment roll-in">Devices without screens (wearables)</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Extensibility</h2>
+						<ul>
+							<li class="fragment roll-in">Plug-in architecture</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h2>Web Device APIs</h2>
+					<ul>
+						<li class="fragment roll-in">Firefox OS has many Web Device APIs</li>
+						<li class="fragment roll-in">Most are exclusive to and can’t be used outside of Firefox OS</li>
+						<li class="fragment roll-in">Many are not on the W3C Standards track</li>
+					</ul>
+					<img src="img/slide-4.png">
+				</section>
+
+				<section>
+					<section>
+						<h1>Existing Solutions</h1>
+					</section>
+
+					<section>
+						<h2>PhoneGap/Cordova</h2>
+						<ul>
+							<li class="fragment roll-in">Not a real web runtime</li>
+							<li class="fragment roll-in">Uses the version of WebKit that is bundled with the device OS</li>
+							<li class="fragment roll-in">Injects/overlays its own non-standard Device APIs</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>node-webkit</h2>
+						<ul>
+							<li class="fragment roll-in">Specifically for desktop applications</li>
+							<li class="fragment roll-in">Minimal non-standard Device APIs</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1>Open Web Runtime</h1>
+					</section>
+
+					<section>
+						<h2>Significance</h2>
+						<p>
+							<small>
+								What value (the importance, worth or usefulness of something) does your idea deliver?
+							</small>
+						</p>
+						<ul>
+							<li class="fragment roll-in">Firefox OS becomes a platform to make applications for all platforms and for the whole web, rather than being just another OS</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Technological Advantage</h2>
+						<p>
+							<small>
+								What technological advantage will your idea deliver and why is this important?
+							</small>
+						</p>
+						<ul>
+							<li class="fragment roll-in">Mozilla has a head start on the development of Web Device APIs</li>
+							<li class="fragment roll-in">Ability to influence and get existing Web Device APIs on W3C Standards track</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Monetary Value</h2>
+						<p>
+							<small>
+								Why would someone invest time or pay money for this idea?
+							</small>
+						</p>
+						<ul>
+							<li class="fragment roll-in">Lowers expenses needed to build and maintain separate code bases for each native platform</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h1>Thank You</h1>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'concave', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
